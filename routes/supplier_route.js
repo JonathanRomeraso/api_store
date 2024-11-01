@@ -9,6 +9,8 @@ router.get('/supplier', SuplierController.fetch)
 
 router.get('/supplier2', SuplierController.fetchAll)
 
+router.get('/supplier/:name', SuplierController.fetchOne)
+
 
 
 module.exports = router
